@@ -57,15 +57,18 @@ const selfNumber = () => {
 
     function isSelfNum(n) {
         for (let m = 1; m <= n; m++) {
-            console.log(m, "m")
-            console.log(getSum(m), "getSum")
-            console.log(n, "n")
             if (m + getSum(m) == n)
                 return false;
         }
         return true;
     }
-    console.log(arrayOfNumbers.map(numb => isSelfNum(numb)))
+    const selfNumbers = []
+    arrayOfNumbers.map(numb => {
+        if (isSelfNum(numb)) {
+            selfNumbers.push(numb)
+        }
+    })
+    return selfNumbers
 }
 
-selfNumber();
+console.log(selfNumber());
