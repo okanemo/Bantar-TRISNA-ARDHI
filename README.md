@@ -3,8 +3,7 @@
 ### Cara mengerjakan
 
 1. Jawab pertanyaan menggunakan file ekstensi bahasa pemrograman yang digunakan
-2. Buat file untuk setiap jawaban dari pertanyaan di bawah ini, sebagai contoh untuk menjawab pertanyaan yang menggunakan bahasa pemrograman maka gunkan file ekstensi dari bahasa pemrograman tersebut
-   namun apabila hanya penjelasan untuk jawaban dari pertanyaan maka buat file dengan file ekstensi `.txt`
+2. Buat file untuk setiap jawaban dari pertanyaan di bawah ini, untuk menjawab pertanyaan yang menggunakan bahasa pemrograman maka gunkan file ekstensi dari bahasa pemrograman tersebut, namun apabila hanya penjelasan untuk jawaban dari pertanyaan maka buat file dengan file ekstensi `.txt` sebagai contoh apabila ingin menjawab pertanyaan nomor 1 dengan menggunakan bahasa pemrograman python maka buat file `1.py` untuk menjawab dari pertanyaan nomor 1
 
 
 ### Pertanyaan
